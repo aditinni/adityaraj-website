@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(11, 17, 30);
+    background-color:#08171e;
     font-family: "Poppins", sans-serif;
     transition: all 1s;
     overflow-x: hidden;
@@ -18,15 +18,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #71b6d5;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #bb88f9;
+    background: #71b6d5;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #592278;
+    background: #08171e;
 }
 
 /* Navbar */
@@ -35,7 +35,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #0b111e;
+    background: #08171e;
 }
 
 nav h2 {
@@ -61,7 +61,7 @@ nav img:hover {
 
 .home h1 {
     font-size: 2.5rem;
-    color: hsl(248.89deg 58.27% 72.75%);
+    color: #71b6d5;
 }
 
 .home p {
@@ -94,17 +94,17 @@ button a {
 }
 
 #cv-btn {
-    color: rgb(201, 103, 201);
+    color: #71b6d5;
 }
 
 .cv {
     font-size: 18px;
-    color: hsl(248.89deg 58.27% 72.75%);
+    color: #71b6d5;
 }
 
 .about-btn {
     font-size: 18px;
-    background-color: hsl(248.89deg 58.27% 72.75%);
+    background-color: #71b6d5;
     border: transparent;
 }
 
@@ -126,7 +126,7 @@ button a {
 }
 
 .about h2 {
-    color: #bb88f9;
+    color:#71b6d5;
 }
 
 .about-flex {
@@ -150,7 +150,7 @@ button a {
     height: 120px;
     border: transparent;
     border-radius: 10px;
-    background-color: hsl(217.89deg 31.15% 11.96%);
+    background-color: #096b90;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ button a {
     max-width: 100%;
     height: auto;
     border: transparent;
-    background-color: hsl(217.89deg 31.15% 11.96%);
+    background-color: #096b90;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -201,7 +201,7 @@ button a {
 }
 
 .skills-h {
-    color: #bb88f9;
+    color:#71b6d5;
 }
 
 .skills-flex-front {
@@ -224,7 +224,7 @@ button a {
     width: 25vw;
     height: 50px;
     border: transparent;
-    background-color: hsl(250, 29%, 17%);
+    background-color:#096b90;
     position: fixed;
     bottom: 40px;
     border-radius: 40px;
@@ -242,7 +242,7 @@ i {
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    background-color: rgb(110, 103, 185);
+    background-color: #71b6d5;
 }
 
 /* Project section */
@@ -253,7 +253,7 @@ i {
 
 .projects h1 {
     font-size: 1.5rem;
-    color: #bb88f9;
+    color: #71b6d5;
     text-align: center;
 }
 
@@ -267,7 +267,7 @@ i {
 .project-flex .project-box {
     width: 400px;
     height: auto;
-    background-color: hsl(250, 29%, 17%);
+    background-color: #096b90;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -297,7 +297,7 @@ i {
 }
 
 .flex-demo button {
-    background-color: rgb(110, 103, 185);
+    background-color: #71b6d5;
     border: transparent;
     padding: 10px 20px;
     cursor: pointer;
@@ -321,7 +321,7 @@ i {
 }
 
 .contactme h1 {
-    color: #bb88f9;
+    color: #71b6d5;
 }
 
 .contactme form {
@@ -337,7 +337,7 @@ i {
 .contactme textarea {
     padding: 10px 14px;
     border: 2px solid white;
-    background-color: hsl(248.89deg 58.27% 72.75%);
+    background-color: #a1ccdc;
     color: white;
     border-radius: 10px;
 }
@@ -353,7 +353,7 @@ i {
 }
 
 .contactme form button {
-    background-color: rgb(110, 103, 185);
+    background-color:#a1ccdc;
     border: transparent;
     padding: 10px 14px;
     cursor: pointer;
@@ -365,7 +365,7 @@ i {
 footer {
     width: 100vw;
     height: auto;
-    background-color: rgb(207, 154, 227);
+    background-color: #a1ccdc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -374,7 +374,7 @@ footer {
 }
 
 footer h1 {
-    color: rgb(11, 17, 30);
+    color: #08171e;
 }
 
 footer p {
@@ -395,7 +395,7 @@ footer .flex-footer .flex {
 }
 
 footer .flex-footer .flex a {
-    color: rgb(11, 17, 30);
+    color:#08171e;
     font-size: 36px;
 }
 
