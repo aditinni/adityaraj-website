@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:#08171e;
+    background-color:#131e2a;
     font-family: "Poppins", sans-serif;
     transition: all 1s;
     overflow-x: hidden;
@@ -39,7 +39,7 @@ nav {
 }
 
 nav h2 {
-    color: hsl(248.89deg 58.27% 72.75%);
+    color: hsl(200, 66%, 64%);
     font-size: 20px;
 }
 
@@ -90,7 +90,7 @@ button a {
 
 .cv-btn {
     background-color: transparent;
-    border: 2px solid hsl(249, 27%, 61%);
+    border: 2px solid hsl(200, 66%, 64%);;
 }
 
 #cv-btn {
@@ -174,7 +174,7 @@ button a {
 }
 
 .skills h2 {
-    color: #bb88f9;
+    color: hsl(200, 38%, 15%);
 }
 
 .skills-flex {
@@ -302,6 +302,7 @@ i {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 10px;
+    
 }
 
 .flex-demo button a {
@@ -359,6 +360,9 @@ i {
     cursor: pointer;
     color: white;
     border-radius: 10px;
+}
+#sec2h{
+    color: #53b1dd;
 }
 
 /* Footer */
