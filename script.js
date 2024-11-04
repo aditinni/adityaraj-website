@@ -5,20 +5,6 @@ const cvBtn = document.getElementById("cv-btn");
 
 let body = document.body;
 
-
-let viewCount = localStorage.getItem("viewCount");
-if (viewCount === null) {
-    // If no view count is stored, start at 1
-    viewCount = 1;
-} else {
-    // Increment existing view count
-    viewCount = parseInt(viewCount) + 1;
-}
-// Update the count in local storage
-localStorage.setItem("viewCount", viewCount);
-// Display the count on the webpage
-document.getElementById("viewCounter").textContent = viewCount;
-
 toggleIcon.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
 
